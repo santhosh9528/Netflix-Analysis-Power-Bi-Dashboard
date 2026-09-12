@@ -186,10 +186,9 @@ This helps understand:
 
 ---
 
-# 🖼️ Dashboard Preview
+## 🖼️ Dashboard Preview
 
-![Netflix Content Analysis Dashboard](Netflix%20Dashboard/Screenshot/Netflix%20Dashboard.jpg)
-
+![Netflix Content Analysis Dashboard](Netflix%20dashboard/Screenshot/imgo.jpg)
 ---
 
 ## 📈 Dashboard Features
