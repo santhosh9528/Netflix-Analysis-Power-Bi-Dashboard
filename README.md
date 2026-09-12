@@ -1,36 +1,35 @@
-# Netflix-Analysis-Power-Bi-Dashboard
-Interactive Netflix Content Analysis Dashboard built with Power BI to analyze movies, TV shows, genres, countries, ratings, IMDb scores, watch hours, and content trends.
-# Netflix Content Analysis Dashboard 📺
+# Netflix Content Analysis – Power BI Dashboard 📺
 
-## Project Overview
+## 📌 Project Overview
 
 This project presents an interactive **Netflix Content Analysis Dashboard** developed using **Microsoft Power BI**.
 
-The objective of the project is to analyze Netflix movies and TV shows and understand content distribution, genres, countries, ratings, IMDb scores, watch hours, views, and release trends.
+The objective of this project is to analyze Netflix Movies and TV Shows and identify meaningful patterns across **content type, genres, countries, ratings, IMDb scores, watch hours, monthly views, and release trends**.
 
-The dashboard transforms raw Netflix content data into meaningful visual insights that make it easier to understand the platform's content library and audience engagement.
+The dashboard transforms raw Netflix content data into an interactive analytical report that makes it easier to understand content distribution and audience engagement.
 
 ---
 
-## Project Objective
+## 🎯 Project Objectives
 
 The main objectives of this project are to:
 
 - Analyze the distribution of Movies and TV Shows
 - Identify popular genres
-- Analyze content by country
+- Analyze content across countries
 - Understand content rating distribution
-- Analyze IMDb scores
+- Analyze IMDb scores and votes
 - Compare watch hours and monthly views
 - Study content release trends over time
 - Identify high-performing content
+- Analyze audience engagement
 - Build an interactive Power BI dashboard
 
 ---
 
-## Dataset
+## 📂 Dataset
 
-The dataset contains Netflix content information including:
+The Netflix dataset contains the following information:
 
 - Content ID
 - Title
@@ -47,7 +46,7 @@ The dataset contains Netflix content information including:
 - IMDb Score
 - Monthly Views
 
-The project also uses supporting tables for:
+Supporting tables used in the Power BI model include:
 
 - Genres
 - Countries
@@ -55,20 +54,24 @@ The project also uses supporting tables for:
 
 ---
 
-## Tools Used
+## 🛠️ Tools & Technologies
+
+The following tools were used in this project:
 
 - **Microsoft Excel** – Dataset preparation
 - **Power Query** – Data cleaning and transformation
-- **Power BI** – Data modeling, DAX, analysis, and visualization
+- **Microsoft Power BI** – Data modeling and dashboard development
 - **DAX** – Measures and calculated metrics
+- **Data Modeling** – Table relationships
+- **Data Visualization** – Interactive reports and charts
 
 ---
 
-## Data Cleaning
+## 🧹 Data Cleaning & Preparation
 
-Before creating the dashboard, the dataset was cleaned and transformed using Power Query.
+Before creating the dashboard, the Netflix dataset was cleaned and transformed using **Power Query**.
 
-The cleaning process included:
+The data preparation process included:
 
 - Checking missing values
 - Checking duplicate records
@@ -78,11 +81,11 @@ The cleaning process included:
 - Handling missing Rating values
 - Handling missing Language values
 - Replacing required missing categorical values with `Unknown`
-- Preparing the dataset for analysis
+- Preparing analysis-ready data
 
 ---
 
-## Data Modeling
+## 🔗 Data Modeling
 
 The Power BI data model contains the main Netflix dataset along with supporting dimension tables.
 
@@ -98,44 +101,68 @@ Date_Table
 Netflix_Raw
 ```
 
-Relationships were created to support filtering and interactive analysis.
+Relationships were created between the tables to support interactive filtering and analysis.
 
 ---
 
-## Dashboard Analysis
+# 📊 Dashboard Analysis
 
-The dashboard provides analysis across several areas.
+The dashboard provides analysis across multiple areas of Netflix content.
 
-### Content Overview
+## 🎬 Content Overview
 
-Analyzes:
+The Content Overview provides a high-level view of the Netflix library.
+
+Analysis includes:
 
 - Total Content
 - Movies
 - TV Shows
-- Content Type Distribution
+- Movie vs TV Show Distribution
+- Content Type Analysis
 
-### Genre Analysis
+---
 
-Helps identify:
+## 🎭 Genre Analysis
+
+Genre analysis helps identify:
 
 - Most common genres
 - Genre-wise content distribution
 - Popular content categories
+- Content concentration across genres
 
-### Country Analysis
+---
 
-Analyzes Netflix content across different countries to identify locations contributing the most content.
+## 🌍 Country Analysis
 
-### Rating Analysis
+Country analysis examines how Netflix content is distributed across different countries.
 
-Shows the distribution of content based on Netflix ratings.
+This helps identify countries contributing the largest amount of content to the dataset.
 
-### IMDb Analysis
+---
 
-Uses IMDb Score and Votes to understand content quality and popularity.
+## ⭐ Rating Analysis
 
-### Audience Engagement
+The dashboard analyzes the distribution of Netflix content across different content ratings.
+
+This helps understand how the content library is distributed among different audience classifications.
+
+---
+
+## 🎞️ IMDb Analysis
+
+IMDb Score and Votes are used to analyze content quality and popularity.
+
+The analysis helps compare titles based on:
+
+- IMDb Score
+- Number of Votes
+- Content Popularity
+
+---
+
+## 👀 Audience Engagement
 
 Audience engagement is analyzed using:
 
@@ -143,15 +170,31 @@ Audience engagement is analyzed using:
 - Monthly Views
 - Votes
 
-### Content Trend Analysis
-
-Release Date and Date Added are used to understand how Netflix content changes over time.
+These metrics help identify content receiving higher levels of audience engagement.
 
 ---
 
-## Dashboard Features
+## 📈 Content Trend Analysis
 
-The Power BI dashboard includes:
+Release Date and Date Added are used to analyze Netflix content trends over time.
+
+This helps understand:
+
+- Content release patterns
+- Historical content trends
+- Changes in the Netflix content library over time
+
+---
+
+# 🖼️ Dashboard Preview
+
+![Netflix Content Analysis Dashboard](Netflix%20Dashboard/Screenshot/Netflix%20Dashboard.jpg)
+
+---
+
+## 📈 Dashboard Features
+
+The Power BI dashboard demonstrates the use of:
 
 - KPI Cards
 - Bar Charts
@@ -161,79 +204,113 @@ The Power BI dashboard includes:
 - Genre Analysis
 - Country Analysis
 - Rating Analysis
+- IMDb Analysis
+- Audience Engagement Analysis
 - Interactive Slicers
 - Filters
 - Tooltips
-- Drill-down functionality
-
----
-
-## Key Skills Demonstrated
-
-This project demonstrates practical knowledge of:
-
-- Data Cleaning
+- Drill-down
 - Power Query
-- Data Transformation
+- DAX Measures
 - Data Modeling
-- Relationships
-- DAX
-- KPI Development
-- Data Visualization
-- Dashboard Design
-- Filtering and Slicers
-- Business Intelligence
-- Analytical Thinking
 
 ---
 
-## Project Structure
+## 🔍 Business / Analytical Questions
+
+The dashboard helps answer questions such as:
+
+- How many Movies and TV Shows are available?
+- What is the distribution of Movies vs TV Shows?
+- Which genres contain the most content?
+- Which countries contribute the most content?
+- How is content distributed across ratings?
+- Which titles have higher IMDb scores?
+- Which content receives the highest watch hours?
+- Which titles receive the highest monthly views?
+- How has content changed over time?
+- Which content appears to have stronger audience engagement?
+
+---
+
+## 💡 Analytical Value
+
+This dashboard provides an interactive way to:
+
+- Understand Netflix content distribution
+- Identify popular genres
+- Compare Movies and TV Shows
+- Analyze country-level content
+- Examine IMDb performance
+- Monitor audience engagement
+- Identify high-performing titles
+- Understand historical content trends
+
+---
+
+## 📁 Project Structure
 
 ```text
-Netflix-Content-Analysis/
+Netflix-Analysis-Power-Bi-Dashboard/
 │
-├── Dataset/
-│   └── Netflix_Dataset.xlsx
-│
-├── PowerBI/
+├── Netflix Dashboard/
+│   │
+│   ├── Dataset/
+│   │   └── Netflix_Dataset.xlsx
+│   │
+│   ├── Screenshot/
+│   │   └── Netflix Dashboard.jpg
+│   │
 │   └── Netflix.pbix
-│
-├── Screenshots/
-│   └── Netflix_Dashboard.png
 │
 └── README.md
 ```
 
 ---
 
-## Dashboard
+## 🚀 Skills Demonstrated
 
-The Power BI dashboard provides an interactive way to explore Netflix content and understand patterns across content type, genres, countries, ratings, IMDb scores, watch hours, and monthly views.
+This project demonstrates practical knowledge of:
 
-> Add your dashboard screenshot here after uploading it to the `Screenshots` folder.
-
-```markdown
-![Netflix Dashboard](Screenshots/Netflix_Dashboard.png)
-```
+- Data Cleaning
+- Data Transformation
+- Power Query
+- Data Modeling
+- Relationships
+- DAX
+- KPI Development
+- Content Analysis
+- Data Visualization
+- Dashboard Design
+- Interactive Slicers
+- Filters
+- Business Intelligence
+- Analytical Thinking
 
 ---
 
-## Conclusion
+## 🎯 Project Goal
 
-This project demonstrates how **Power BI can transform raw entertainment data into an interactive analytical dashboard**.
+The goal of this project is to demonstrate how **Power BI can transform raw entertainment data into meaningful and interactive analytical insights**.
 
-The analysis helps understand Netflix's content distribution, audience engagement, content ratings, genres, countries, and historical trends through clear and interactive visualizations.
+The dashboard provides a clear view of Netflix content across **Movies, TV Shows, genres, countries, ratings, IMDb scores, watch hours, monthly views, and historical trends**.
 
 ---
 
-## Author
+## 📝 Conclusion
+
+This project demonstrates an end-to-end **Netflix Content Analysis workflow using Power BI**.
+
+By combining **Power Query, data cleaning, data modeling, DAX, and interactive visualizations**, the dashboard transforms raw Netflix data into an easy-to-understand analytical report.
+
+The project demonstrates practical skills in **data preparation, Business Intelligence, dashboard development, and data-driven analysis**.
+
+---
+
+## 👤 Author
 
 **Santhosh Kumar M.**
 
 ### Data Analytics Skills
 
-**Excel | SQL | Python | Power BI | Power Query | DAX | Data Visualization**
-
----
-
-⭐ If you found this project useful, feel free to explore the dashboard and other data analytics projects in my GitHub profile.
+**Excel | SQL | Python | Power BI | Power Query | DAX | Data Visualization | Data Analytics**
